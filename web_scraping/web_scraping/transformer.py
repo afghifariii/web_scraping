@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 def is_money_miliar(string_money: str) -> bool:
-    return string_money.endswith("miliar")
+    return string_money.lower().endswith("miliar")
 
 
 def transform_money_format(string_money: str) -> str:
