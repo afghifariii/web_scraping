@@ -1,0 +1,8 @@
+beautifulsoup4==4.9.3
+html5lib==1.1
+pandas==1.2.3
+wheel==0.34.2
+pip==21.0.1
+sqlalchemy==1.4.7
+lxml==4.6.3
+psycopg2-binary==2.8.6
