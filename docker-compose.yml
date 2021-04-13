@@ -1,6 +1,8 @@
 version: "3.8"
 services:
-  app:
-    build: .
   db:
     build: ./database
+  app:
+    build: .
+    depends_on: 
+      - db
